@@ -1,0 +1,84 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	}
+.aLatter{
+	background: #666;
+	height: 500px;
+	}
+.aLatter div{
+	background:#fff;
+	height:10px;
+	width: 400px;
+	position:absolute;
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	visibility:hidden;
+	opacity:0;
+	top:50%;
+	left:30%;
+	}
+.aLatter.aToggle div{
+	opacity:1;
+	visibility:visible;
+	}
+.aLatter .rightArrow{
+	top:50%;
+	left:0;
+	
+	
+	-ms-transform: rotate(60deg); /* IE 9 */
+	-webkit-transform: rotate(60deg); /* Safari */
+	transform: rotate(60deg); /* Standard syntax */
+	}
+.aToggle .rightArrow{
+	top:50%;
+	left:42%;
+
+	}
+.aToggle .straitArrow {
+		-webkit-transition: all 1s ease-in-out;
+		-moz-transition: all 1s ease-in-out;
+		-ms-transition: all 1s ease-in-out;
+		-o-transition: all 1s ease-in-out;
+		transition: all 1s ease-in-out;
+			top: 58%;
+			left: 42%;
+			width: 250px !important;
+			}
+.aToggle .leftArrow{
+	top:50%;
+	left:32%;
+	
+	-webkit-transition: all 1s ease-in-out;
+	-moz-transition: all 1s ease-in-out;
+	-ms-transition: all 1s ease-in-out;
+	-o-transition: all 1s ease-in-out;
+	transition: all 1s ease-in-out;
+	transform:translate(-50%,-50%);
+	-ms-transform: rotate(-71deg); /* IE 9 */
+	-webkit-transform: rotate(-71deg); /* Safari */
+	transform: rotate(-71deg); /* Standard syntax */
+	}
+.full{
+	width:100%;
+	float:left;
+	}
+.aButton{
+	position:absolute;
+	top:30%;
+	left:20%;
+	font-size:18px;
+	text-transform:uppercase;
+	font-family: 'Roboto', sans-serif;
+	padding:15px 30px;
+	cursor:pointer;
+	background:rgba(0,0,0,0) !important;
+	border:1px solid #fff;
+	color:#fff;
+	}
+.relative{
+	position:relative;
+	}
